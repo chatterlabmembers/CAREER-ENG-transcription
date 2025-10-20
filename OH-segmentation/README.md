@@ -38,16 +38,25 @@ Open all three items listed above, follow the following workflow to begin your s
 ### Part II: Set up files for segmentation
 
 1. Double check the .wav and .eaf files' names match.
-2. In ELAN, Add `xds@` tiers.
+2. In ELAN, Listen to the full 5-min clip and identify speakers present. Add speaker tiers if they do not already exist in the file.
+3. Next, we need to add `xds@`, or addressee, tiers.
   - In the top menu bar, find and click on `Type` > `Change Tier Type...`. This will lead to a pop-up window.
   - In the pop-up window's top menu bar, find and click on `Add` tab.
   - In the `Add` tab, find `Type Name` and input "addressee". In the same `Add` tab, find `Stereotype` and toggle down to choose "Symbolic Association".
   - Click on `Add` button located in the bottom. Exit the pop-up window.
   - In the top menu bar, find and click on `Tier` > `Add New Tier...` (or use the shortcut ⌘T). This will lead to a pop-up window.
   - In the `Add` tab, find `Tier Name` and input the correct `xds@` tier(s) needed for the file you are working on.
-    - For **every** speaker you have, you will need to make a separate `xds@` tier for them. Each `xds@` tier should have the same format, which is `xds@` plus the three-character speaker codes (e.g., `FA1`, `MA1`, etc.). The complete format should, for example, look like `xds@FA1` or `xds@MA1`.
+    - For **every** speaker you have, you will need to make a separate `xds@` tier for them. Each `xds@` tier should have the same format, which is "xds@" plus the three-character speaker codes (e.g., "FA1", "MA1", etc.). The complete format should, for example, look like "xds@FA1", "xds@MA1", etc.
+    - In the same `Add` tab, find `Participant` and input the same three-character speaker codes matching your `xds@` tier.
+      - e.g., if your `Tier Name` was "xds@FA1", your `Participant` should be "FA1".
+    - In the same `Add` tab, find `Parent Tier` and toggle down to choose the correct parent tier.
+      - e.g., if your `Tier Name` was "xds@FA1" and your `Participant` is "FA1", your `Parent Tier` should be "FA1".
     - ***Double check there are no typos with your inputs!***
-    - 
+    - Once `Tier Name`, `Participant`, and `Tier Name` are all filled out for the speaker, click on `Add` button.
+    - Repeat the same process until you have a `xds@` tier for every speaker, except for `CHI`, you have. Then, exit the pop-up window.
+4. You should now see all the new `xds@` tiers you just added on the bottom left speaker tier panel. In the panel, right click on your mouse/trackpad, click on `Sort Tiers` > `Sort by Hierarchy`. This should help you better track of of your speakers and their associated `xds@` tiers.
+5. Next, we need to create xds markings for all the existing TCDS (TC-directed speech).
+
 
 
 *If you want a visual version on how to set up files for segmentation, Dr. Casillas made a video tutorial, and the link to the tutorial can be found in [CAREER OH speech segmentation](https://uchicago.app.box.com/folder/346086493250) folder.*
