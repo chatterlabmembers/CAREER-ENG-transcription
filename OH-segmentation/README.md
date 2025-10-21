@@ -54,7 +54,7 @@ Open all three items listed above, follow the workflow to begin your segmentatio
         - e.g., if your `Tier Name` was "xds@FA1", your `Participant` should be "FA1".
       - In the same `Add` tab, find `Parent Tier` and toggle down to choose the correct parent tier.
         - e.g., if your `Tier Name` was "xds@FA1" and your `Participant` is "FA1", your `Parent Tier` should be "FA1".
-      - ***Double check there are no typos with your inputs!***
+      - **Double check there are no typos with your inputs!**
       - Once `Tier Name`, `Participant`, and `Parent Tier` are all filled out for the speaker, click on `Add` button.
       - Repeat the same process until you have a `xds@` tier for **every** non-TC speaker you have. Then, exit the pop-up window.
         
