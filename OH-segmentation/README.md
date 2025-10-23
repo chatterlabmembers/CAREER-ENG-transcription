@@ -89,11 +89,12 @@ Open all three items listed above, follow the workflow to begin your segmentatio
 
 2. Segment all lexical vocalizations from non-TC speakers (you should not have to segment any vocalizations from TC or from other speakers that are TC-directed since they should have been segmented and transcribed beforehand). *As always, vegetative sounds such as sneezing and coughing should never be included.*
 
-    - All segmented overheard speech annotations should have the same annotation value "%%".
+> [!CAUTION]
+> All segmented overheard speech annotations should have the same annotation value "%%"!
 
-3. Pay attention to utterance boundaries and speaker assignments.
+4. Pay attention to utterance boundaries and speaker assignments.
 
-4. After you have segmented all overheard speech and inputted the annotation value "%%", we need to tag their associated `xds@` annotations.
+5. After you have segmented all overheard speech and inputted the annotation value "%%", we need to tag their associated `xds@` annotations.
 
     - In the bottom left speaker tier panel, highlight one non-TC source tier.
     - In the top menu bar, find and click on `Tier` > `Create Annotations on Dependent Tiers...`. This will lead to a pop-up window.
@@ -105,14 +106,14 @@ Open all three items listed above, follow the workflow to begin your segmentatio
     - In the next page, on the top menu bar, find and click on `Replace`. This will lead to a smaller pop-up window. In this smaller pop-up window, input the letter "O" (capitalization matters here!), then click on `OK` button and close the pop-up window.
     - Repeat the same process for **every** non-TC speaker's `xds@` tier you have.
       
-5. Once you are done segmenting a clip, input the speaker tiers and nicknames in the `Speaker ID` tab under [OH speech segmentation file tracker](https://uchicago.app.box.com/file/2017072696161).
+6. Once you are done segmenting a clip, input the speaker tiers and nicknames in the `Speaker ID` tab under [OH speech segmentation file tracker](https://uchicago.app.box.com/file/2017072696161).
 
-6. Listen to the entire clip again to ensure you did not miss any vocalizations.
+7. Listen to the entire clip again to ensure you did not miss any vocalizations.
 
-7. Upload the completely segmented .eaf file to [CAREER OH speech segmentation > completed_files](https://uchicago.app.box.com/folder/347024015997) folder.
+8. Upload the completely segmented .eaf file to [CAREER OH speech segmentation > completed_files](https://uchicago.app.box.com/folder/347024015997) folder.
 
-8. Fill in any empty cells in the row associated with the file you just finished in [OH speech segmentation file tracker](https://uchicago.app.box.com/file/2017072696161).
+9. Fill in any empty cells in the row associated with the file you just finished in [OH speech segmentation file tracker](https://uchicago.app.box.com/file/2017072696161).
 
-9. Delete all local copies associated with the file you just uploaded to Box.
+10. Delete all local copies associated with the file you just uploaded to Box.
 
 *If your shift ends before fully segmenting the file you are working on, upload the in-progress file to [CAREER OH speech segmentation > inprogress_files](https://uchicago.app.box.com/folder/347025323995) folder and resume the next time you have a shift.*
