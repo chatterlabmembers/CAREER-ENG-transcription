@@ -48,6 +48,9 @@ Open all three items listed above, follow the workflow to begin your segmentatio
     - In the pop-up window's top menu bar, find and click on `Add` tab.
     - In the `Add` tab, find `Type Name` and input "addressee". In the same `Add` tab, find `Stereotype` and toggle down to choose "Symbolic Association".
     - Click on `Add` button located at the bottom. Exit the pop-up window.
+      
+      ![](./instruction-gif/step1-add-tier-type.gif)
+      
     - In the top menu bar, find and click on `Tier` > `Add New Tier...` (or use the shortcut ⌘T). This will lead to a pop-up window.
     - In the `Add` tab, find `Tier Name` and input the correct `xds@` tier(s) needed for the file you are working on.
       - For **every** speaker you have, you will need to make a separate `xds@` tier for them. Each `xds@` tier should have the same format, which is "xds@" plus the three-character speaker codes (e.g., "FA1", "MA1", etc.). The complete format should, for example, look like "xds@FA1", "xds@MA1", etc.
@@ -58,6 +61,8 @@ Open all three items listed above, follow the workflow to begin your segmentatio
       - **Double check there are no typos with your inputs!**
       - Once `Tier Name`, `Participant`, and `Parent Tier` are all filled out for the speaker, click on `Add` button.
       - Repeat the same process until you have a `xds@` tier for **every** non-TC speaker you have. Then, exit the pop-up window.
+     
+      ![](./instruction-gif/step2-add-xds-tier.gif)
         
 4. You should now see all the new `xds@` tiers you just added on the bottom left speaker tier panel. In the panel, right click on your mouse/trackpad, click on `Sort Tiers` > `Sort by Hierarchy`. This should help you better track your speakers and their associated `xds@` tiers.
 
@@ -67,6 +72,8 @@ Open all three items listed above, follow the workflow to begin your segmentatio
     - In the pop-up window, find and choose the source tier (i.e., a three-character speaker code tier excluding `CHI`), then click on `Next` button. In the next page, find and choose the corresponding destination tier, which should always be in the format of "xds@" plus the source tier name, then click on `Next` button. In the next page, choose "All annotations", then click on `Finish` button.
       - e.g., if your source tier was "MA1", then your destination tier should be "xds@MA1", etc.
     - Repeat the same process for **every** non-TC speaker you have.
+  
+      ![](./instruction-gif/step3-copy-all-anno.gif)
       
 6. After you have copied existing TCDS annotations from source tier to destination tier for every non-TC speaker you have, we need to clean up and replace destination tier annotations.
     
@@ -74,13 +81,18 @@ Open all three items listed above, follow the workflow to begin your segmentatio
     - In the top menu bar, find and click on `Tier` > `Remove Annotations or Values...`. This will lead to a pop-up window.
     - In the upper half of the pop-up window, find and choose the same `xds@` tier you just highlighted. Then, in the bottom half of the same pop-up window, find and choose "Annotation Values" > "All Annotations". Then click on "OK" button and close the pop-up window.
       - You will see all the annotations in the highlighted `xds@` tier are now empty.
+
+      ![](./instruction-gif/step4-delete-anno-values.gif)
+
     - In the top menu bar, find and click on `Search` > `Find (and Replace)...` (or use the shortcut ⌘F). This will lead to a pop-up window.
     - In the pop-up window, find `An annotation on tier` and toggle down to choose the same highlighted `xds@` tier. Then, in the cell next to `that matches`, input "^$" (meaning "any empty annotation"). Click on `Search` button. 
       - The search should return all the annotations in the highlighted `xds@` tier since we just emptied them.
     - In the next page, on the top menu bar, find and click on `Replace`. This will lead to a smaller pop-up window. In this smaller pop-up window, input the letter "T" (capitalization matters here!), then click on `OK` button and close the pop-up window.
     - Repeat the same process for **every** non-TC speaker's `xds@` tier you have.
+
+      ![](./instruction-gif/step5-replace-anno-values.gif)
       
-7. Now you are ready to begin segmenting overheard speech!
+6. Now you are ready to begin segmenting overheard speech!
 
 *If you want a visual version on how to set up files for segmentation, Dr. Casillas made a video tutorial, and the link to the tutorial can be found in [CAREER OH speech segmentation](https://uchicago.app.box.com/folder/346086493250) folder.*
 
@@ -102,10 +114,15 @@ Open all three items listed above, follow the workflow to begin your segmentatio
     - In the pop-up window, check if the highlighted source tier is the one selected (it should be), then click on `Next` button.
     - In the next page, select `Annotation With Value of Parent`, then click on `Finish` button.
       - You should see the newly segmented annotations' associated `xds@` annotations are now copied, each with the annotation value "%%".
+
+      ![](./instruction-gif/step6-copy-oh-anno.gif)
+        
     - In the top menu bar, find and click on `Search` > `Find (and Replace)...` (or use the shortcut ⌘F). This will lead to a pop-up window.
     - In the pop-up window, find `An annotation on tier` and toggle down to choose the same highlighted `xds@` tier. Then, in the cell next to `that matches`, input "%%". Click on `Search` button. 
     - In the next page, on the top menu bar, find and click on `Replace`. This will lead to a smaller pop-up window. In this smaller pop-up window, input the letter "O" (capitalization matters here!), then click on `OK` button and close the pop-up window.
     - Repeat the same process for **every** non-TC speaker's `xds@` tier you have.
+
+      ![](./instruction-gif/step7-replace-oh-anno.gif)
       
 5. Once you are done segmenting a clip, input the speaker tiers and nicknames in the `Speaker ID` tab under [OH speech segmentation file tracker](https://uchicago.app.box.com/file/2017072696161).
 
