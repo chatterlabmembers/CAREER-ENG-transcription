@@ -3,6 +3,14 @@
 > [!WARNING]
 > You must have completed **ACLEW Annotation Scheme Gold Standard Training** and **CAREER ENG Transcription Traning** before segmentation!
 
+## Brief Overview
+
+Building on Dr. Casillas’s NSF-funded project on the noun bias and decades of research on early language input, we know a great deal about how infant-directed (or child-directed) speech scaffolds early language acquisition. However, generations of psycholinguistics research have largely overlooked another potential source of learning — overheard speech, or speech directed at others in the child’s environment.
+
+To gain a more complete picture of infants’ everyday linguistic experience, we are now examining what kinds of linguistic information appear in overheard speech and whether infants might learn from it. A crucial first step is to quantify how much overheard speech infants actually encounter.
+
+To do this, we require a reliable method for identifying and transcribing overheard speech from our daylong recordings. Our goal is to leverage advances in Automatic Speech Recognition (ASR), such as Whisper, to automate this process, and thus minimizes the need for extensive manual verification. However, before relying on ASR tools, we need to establish a baseline accuracy rate for ASR-based identification and transcription of overheard speech in naturalistic recordings. This manual provides the framework for doing just that.
+
 ### Current task overview
 
 A small portion of the transcribed clips from the parent project `CAREER-ENG-transcription` were randomly sampled. Chatter Lab RA's will be segmenting overheard speech, or speech that is not directed at TC (target child), in those clips.
