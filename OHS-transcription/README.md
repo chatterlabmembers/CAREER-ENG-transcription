@@ -1,7 +1,7 @@
-# CAREER OH Speech Segmentation
+# CAREER OH Speech Transcription
 
 > [!WARNING]
-> You must have completed **ACLEW Annotation Scheme Gold Standard Training** and **CAREER ENG Transcription Traning** before segmentation!
+> You must have completed **ACLEW Annotation Scheme Gold Standard Training** and **CAREER ENG Transcription Traning** before transcribing OH speech!
 
 ## Brief Overview
 
@@ -13,30 +13,30 @@ To do this, we require a reliable method for identifying and transcribing overhe
 
 ### Current task overview
 
-A small portion of the transcribed clips from the parent project `CAREER-ENG-transcription` were randomly sampled. Chatter Lab RA's will be segmenting overheard speech, or speech that is not directed at TC (target child), in those clips.
+A small portion of the transcribed clips from the parent project `CAREER-ENG-transcription` were randomly sampled. Chatter Lab RA's will be transcribing overheard speech, or speech that is not directed at TC (target child), in those clips.
 
 ### What's here
 
 On this page, you can find:
 
-1. Folders needed for segmentation
-2. Workflow on how to set up files for segmentation and segment overheard speech
+1. Folders needed for OHS transcription
+2. Workflow on how to set up files for transcribing overheard speech
 
-## Segmentation workflow
+## OHS Transcription workflow
 
-To begin segmentation, you must have access to the following folders and application:
+To begin OHS transcription, you must have access to the following folders and application:
 
 1. [CAREER transcription team](https://uchicago.app.box.com/folder/198109383319) folder
-2. [CAREER OH speech segmentation](https://uchicago.app.box.com/folder/346086493250) folder
+2. [CAREER OH speech transcription](https://uchicago.app.box.com/folder/346086493250) folder
 3. [ELAN](https://archive.mpi.nl/tla/elan/download) software
 
 Open all three items listed above, follow the workflow to begin your segmentation session.
 
 ### Part I: Locate files
 
-1. In [CAREER OH speech segmentation](https://uchicago.app.box.com/folder/346086493250) folder, open [OH speech segmentation file tracker](https://uchicago.app.box.com/file/2017072696161) spreadsheet.
+1. In [CAREER OH speech transcription](https://uchicago.app.box.com/folder/346086493250) folder, open [OH speech transcription file tracker](https://uchicago.app.box.com/file/2017072696161) spreadsheet.
 
-2. Locate the file name of the file you last worked on or the next un-segmented file. If you are starting on a fresh, unsegmented file, add your initials to `Segmentation annotator` and today's date to `First date worked on` columns.
+2. Locate the file name of the file you last worked on or the next un-transcribed file. If you are starting on a fresh file, add your initials to `OHS annotator` and today's date to `First date worked on` columns.
 
 3. Once you have located a file name, download the associated .wav file from `Recording URL` column.
 
@@ -44,7 +44,7 @@ Open all three items listed above, follow the workflow to begin your segmentatio
 
 5. When you have both .wav and .eaf files, open them in [ELAN](https://archive.mpi.nl/tla/elan/download).
 
-### Part II: Set up files for segmentation
+### Part II: Set up files for OHS transcription
 
 1. Double check the .wav and .eaf files' names match.
 
@@ -100,11 +100,11 @@ Open all three items listed above, follow the workflow to begin your segmentatio
 
       ![](./instruction-gif/step5-replace-anno-values.gif)
       
-6. Now you are ready to begin segmenting overheard speech!
+6. Now you are ready to begin segmenting and transcribing overheard speech!
 
-*If you want a visual version on how to set up files for segmentation, Dr. Casillas made a video tutorial, and the link to the tutorial can be found in [CAREER OH speech segmentation](https://uchicago.app.box.com/folder/346086493250) folder.*
+*If you want a visual version on how to set up files for OHS transcription, Dr. Casillas made a video tutorial, and the link to the tutorial can be found in [CAREER OH speech transcription](https://uchicago.app.box.com/folder/346086493250) folder.*
 
-### Part III: Overheard speech segmentation
+### Part III: Overheard speech transcription
 
 1. **Double check the file you are working on is set up correctly!**
 
@@ -131,15 +131,17 @@ Open all three items listed above, follow the workflow to begin your segmentatio
     - Repeat the same process for **every** non-TC speaker's `xds@` tier you have.
 
       ![](./instruction-gif/step7-replace-oh-anno.gif)
+
+5. **Transcribe all speech tagged as "%%" based on the [CAREER-ENG-transcription workflow](https://github.com/chatterlabmembers/CAREER-ENG-transcription/blob/main/README.md)**.
       
-5. Once you are done segmenting a clip, input the speaker tiers and nicknames in the `Speaker ID` tab under [OH speech segmentation file tracker](https://uchicago.app.box.com/file/2017072696161).
+6. Once you are done transcribing a clip, input the speaker tiers and nicknames in the `Speaker ID` tab under [OH speech transcription file tracker](https://uchicago.app.box.com/file/2017072696161).
 
-6. Listen to the entire clip again to ensure you did not miss any vocalizations.
+7. Listen to the entire clip again to ensure you did not miss any vocalizations.
 
-7. Upload the completely segmented .eaf file to [CAREER OH speech segmentation > completed_files](https://uchicago.app.box.com/folder/347024015997) folder.
+8. Upload the completely transcribed .eaf file to [CAREER OH speech transcription > completed_files](https://uchicago.app.box.com/folder/347024015997) folder.
 
-8. Fill in any empty cells in the row associated with the file you just finished in [OH speech segmentation file tracker](https://uchicago.app.box.com/file/2017072696161).
+9. Fill in any empty cells in the row associated with the file you just finished in [OH speech transcription file tracker](https://uchicago.app.box.com/file/2017072696161).
 
-9. Delete all local copies associated with the file you just uploaded to Box.
+10. Delete all local copies associated with the file you just uploaded to Box.
 
-*If your shift ends before fully segmenting the file you are working on, upload the in-progress file to [CAREER OH speech segmentation > inprogress_files](https://uchicago.app.box.com/folder/347025323995) folder and resume the next time you have a shift.*
+*If your shift ends before fully completing the file you are working on, upload the in-progress file to [CAREER OH speech transcription > inprogress_files](https://uchicago.app.box.com/folder/347025323995) folder and resume the next time you have a shift.*
