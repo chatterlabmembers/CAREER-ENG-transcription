@@ -15,11 +15,11 @@ Click the links below to download the training files. For each training set, you
 * After you complete each minute:
 	* Reference [these instructions](./README.md#minchat-checker) and upload your eaf file to the minCHAT checker
 		* Correct errors as needed and remember that the checker only gives you a list of _potential_ errors, meaning that some of the "errors" it catches are fine to keep. Reference the AAS slides [here](https://docs.google.com/presentation/d/1WXlAR4JHrdvaavyv86ZJiKk7DCr9iPs3VAX9ls4CPjY/edit#slide=id.g7a674d1b05_0_0) as needed
-		* Take note of any questions for discussion with Subin/the annotation team at the next opportunity
+		* Take note of any questions for discussion with the Lab Manager/the annotation team at the next opportunity
 	* Upload your eaf file to the [gold-standard comparison app](https://aclew.shinyapps.io/aclew-compare-eafs/)
 		* Enter the specific minute you want to test (1, 2, 3, 4, or 5)
 		* Check the box to ignore dependent tiers
-		* Screen shot your error report and send to Subin (on Slack) with the following additional information:
+		* Screen shot your error report and send to the Lab Manager (on Slack) with the following additional information:
 			* Training file number
 			* Minute number
 			* Any questions you have about this minute
