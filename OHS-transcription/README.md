@@ -26,9 +26,8 @@ On this page, you can find:
 
 To begin OHS transcription, you must have access to the following folders and application:
 
-1. [CAREER transcription team](https://uchicago.app.box.com/folder/198109383319) folder
-2. [CAREER OH speech transcription](https://uchicago.app.box.com/folder/346086493250) folder
-3. [ELAN](https://archive.mpi.nl/tla/elan/download) software
+1. [CAREER OH speech transcription](https://uchicago.app.box.com/folder/346086493250) folder
+2. [ELAN](https://archive.mpi.nl/tla/elan/download) software
 
 Open all three items listed above, follow the workflow to begin your segmentation session.
 
@@ -38,11 +37,9 @@ Open all three items listed above, follow the workflow to begin your segmentatio
 
 2. Locate the file name of the file you last worked on or the next un-transcribed file. If you are starting on a fresh file, add your initials to `OHS annotator` and today's date to `First date worked on` columns.
 
-3. Once you have located a file name, download the associated .wav file from `Recording URL` column.
+3. Once you have located a file name, download the associated .eaf file from `TCDS-only eaf URL` column and .wav file from `Recording URL` column. The .eaf file will contain all CHI-produced speech and TCDS (TC-directed speech) already transcribed.
 
-4. Search and download the file name ending in .eaf format in [CAREER transcription team > annotator_files > completed](https://uchicago.app.box.com/folder/199422689005) folder. *You will notice there are likely multiple versions of the same file you are searching for; download the ***latest dated version*** (most likely under another annotator's "checks" folder)*
-
-5. When you have both .wav and .eaf files, open them in [ELAN](https://archive.mpi.nl/tla/elan/download).
+4. When you have both .wav and .eaf files, open them in [ELAN](https://archive.mpi.nl/tla/elan/download).
 
 ### Part II: Set up files for OHS transcription
 
@@ -74,7 +71,7 @@ Open all three items listed above, follow the workflow to begin your segmentatio
         
 4. You should now see all the new `xds@` tiers you just added on the bottom left speaker tier panel. In the panel, right click on your mouse/trackpad, click on `Sort Tiers` > `Sort by Hierarchy`. This should help you better track your speakers and their associated `xds@` tiers.
 
-5. Next, we need to create xds markings for all the existing TCDS (TC-directed speech).
+5. Next, we need to create xds markings for all the existing TCDS.
     
     - In the top menu bar, find and click on `Tier` > `Copy Annotations from Tier to Tier...`. This will lead to a pop-up window.
     - In the pop-up window, find and choose the source tier (i.e., a three-character speaker code tier excluding `CHI`), then click on `Next` button. In the next page, find and choose the corresponding destination tier, which should always be in the format of "xds@" plus the source tier name, then click on `Next` button. In the next page, choose "All annotations", then click on `Finish` button.
@@ -138,7 +135,7 @@ Open all three items listed above, follow the workflow to begin your segmentatio
 
 7. Listen to the entire clip again to ensure you did not miss any vocalizations.
 
-8. Upload the completely transcribed .eaf file to [CAREER OH speech transcription > completed_files](https://uchicago.app.box.com/folder/347024015997) folder.
+8. Upload the completely transcribed .eaf file to [CAREER OH speech transcription > completed_files](https://uchicago.app.box.com/folder/347024015997) folder. Copy the URL of the .eaf file you just uploaded and paste the address to `Uploaded eaf URL` column in [OH speech transcription file tracker](https://uchicago.app.box.com/file/2017072696161). This step ensures that you have uploaded the .eaf file.
 
 9. Fill in any empty cells in the row associated with the file you just finished in [OH speech transcription file tracker](https://uchicago.app.box.com/file/2017072696161).
 
