@@ -45,7 +45,7 @@ Open all three items listed above, follow the workflow to begin your segmentatio
 
 1. Double check the .wav and .eaf files' names match.
 
-2. In ELAN, listen to the full 5-min clip and identify speakers present. Add speaker tiers if they do not already exist in the file.
+2. In ELAN, listen to the full 5-min clip and identify speakers present. Add speaker tiers if they do not already exist in the file. If there is no speech in the 5-min clip, skip to **Part III step 6**.
 
 3. Next, we need to add `xds@`, or addressee, tiers.
     
@@ -79,7 +79,7 @@ Open all three items listed above, follow the workflow to begin your segmentatio
     - Repeat the same process for **every** non-TC speaker you have.
   
       ![](./instruction-gif/step3-copy-all-anno.gif)
-      
+
 6. After you have copied existing TCDS annotations from source tier to destination tier for every non-TC speaker you have, we need to clean up and replace destination tier annotations.
     
     - In the bottom left speaker tier panel, highlight one `xds@` tier.
@@ -96,8 +96,10 @@ Open all three items listed above, follow the workflow to begin your segmentatio
     - Repeat the same process for **every** non-TC speaker's `xds@` tier you have.
 
       ![](./instruction-gif/step5-replace-anno-values.gif)
+
+7. **You should still complete steps 1-6 for all TCDS even if there are no overheard utterances present!** Then skip to **Part III step 6**.
       
-6. Now you are ready to begin segmenting and transcribing overheard speech!
+8. Now you are ready to begin segmenting and transcribing overheard speech!
 
 *If you want a visual version on how to set up files for OHS transcription, Dr. Casillas made a video tutorial, and the link to the tutorial can be found in [CAREER OH speech transcription](https://uchicago.app.box.com/folder/346086493250) folder.*
 
