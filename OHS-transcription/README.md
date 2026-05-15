@@ -139,7 +139,7 @@ Open all three items listed above, follow the workflow to begin your segmentatio
 
 8. Upload the completely transcribed .eaf file to [CAREER OH speech transcription > completed_files](https://uchicago.app.box.com/folder/347024015997) folder. Copy the URL of the .eaf file you just uploaded and paste the address to `Uploaded eaf URL` column in [OH speech transcription file tracker](https://uchicago.app.box.com/file/2231355991161). This step ensures that you have uploaded the .eaf file.
 
-9. Fill in any empty cells in the row associated with the file you just finished in [OH speech transcription file tracker](https://uchicago.app.box.com/file/2017072696161).
+9. Fill in any empty cells in the row associated with the file you just finished in [OH speech transcription file tracker](https://uchicago.app.box.com/file/2231355991161).
 
 10. Delete all local copies associated with the file you just uploaded to Box.
 
